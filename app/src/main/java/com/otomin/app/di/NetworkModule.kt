@@ -58,7 +58,7 @@ object NetworkModule {
     @Singleton
     @ConfigBaseUrl
     fun provideConfigBaseUrl(): String =
-        "https://o-tomin.github.io/otomin-role-based-access-config"
+        "https://o-tomin.github.io/secret-company-role-based-access-config"
 
     /**
      * Configures an OkHttp logging interceptor.
