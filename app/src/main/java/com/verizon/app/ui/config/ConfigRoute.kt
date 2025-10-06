@@ -1,4 +1,4 @@
-package com.verizon.app.ui.config
+package com.otomin.app.ui.config
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,7 +14,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
-import com.verizon.app.util.collectAsStateWithLifecycle
+import com.otomin.app.util.collectAsStateWithLifecycle
 
 /**
  * Top-level composable entry point for the **Access Matrix Demo** screen.

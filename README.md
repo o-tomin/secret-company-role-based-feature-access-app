@@ -101,14 +101,14 @@ The configuration YAML file defining roles, plans, and feature access rules is h
 
 ### Remote YAML URL
 
-https://o-tomin.github.io/verizon-role-based-access-config/plans_matrix.yml
+https://o-tomin.github.io/otomin-role-based-access-config/plans_matrix.yml
 
 ---
 
 ## Project Structure
 
 ```
-com.verizon.app
+com.otomin.app
 │
 ├── MyApplication.kt             # Hilt entry point
 ├── Constants.kt                 # Global TAG and constants

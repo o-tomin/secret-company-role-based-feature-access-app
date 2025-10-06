@@ -1,4 +1,4 @@
-package com.verizon.app.util
+package com.otomin.app.util
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State

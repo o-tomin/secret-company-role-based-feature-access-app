@@ -1,7 +1,7 @@
-package com.verizon.app.di
+package com.otomin.app.di
 
-import com.verizon.app.ui.DefaultUseCaseCoroutineScope
-import com.verizon.app.ui.UseCaseCoroutineScope
+import com.otomin.app.ui.DefaultUseCaseCoroutineScope
+import com.otomin.app.ui.UseCaseCoroutineScope
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

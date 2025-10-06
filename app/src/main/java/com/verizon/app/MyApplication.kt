@@ -1,10 +1,10 @@
-package com.verizon.app
+package com.otomin.app
 
 import androidx.multidex.MultiDexApplication
 import dagger.hilt.android.HiltAndroidApp
 
 /**
- * The main [android.app.Application] class for the Verizon Role-Based Access app.
+ * The main [android.app.Application] class for the otomin Role-Based Access app.
  *
  * This class serves as the **entry point** for the application and initializes
  * **Hilt dependency injection** at process startup. It also extends
@@ -26,7 +26,7 @@ import dagger.hilt.android.HiltAndroidApp
  *     android:name=".MyApplication"
  *     android:icon="@mipmap/ic_launcher"
  *     android:label="@string/app_name"
- *     android:theme="@style/Theme.Verizon" />
+ *     android:theme="@style/Theme.otomin" />
  * ```
  *
  * @see dagger.hilt.android.HiltAndroidApp

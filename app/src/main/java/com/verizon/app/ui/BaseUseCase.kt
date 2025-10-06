@@ -1,4 +1,4 @@
-package com.verizon.app.ui
+package com.otomin.app.ui
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow

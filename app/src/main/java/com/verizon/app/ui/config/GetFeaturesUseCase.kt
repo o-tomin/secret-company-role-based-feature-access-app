@@ -1,15 +1,15 @@
-package com.verizon.app.ui.config
+package com.otomin.app.ui.config
 
 import android.util.Log
-import com.verizon.app.Constants.TAG
-import com.verizon.app.di.IoDispatcher
-import com.verizon.app.model.AccessFlag
-import com.verizon.app.model.Feature
-import com.verizon.app.model.PlanId
-import com.verizon.app.model.Role
-import com.verizon.app.reopsitory.PlansConfigRepository
-import com.verizon.app.ui.BaseUseCase
-import com.verizon.app.ui.UseCaseCoroutineScope
+import com.otomin.app.Constants.TAG
+import com.otomin.app.di.IoDispatcher
+import com.otomin.app.model.AccessFlag
+import com.otomin.app.model.Feature
+import com.otomin.app.model.PlanId
+import com.otomin.app.model.Role
+import com.otomin.app.reopsitory.PlansConfigRepository
+import com.otomin.app.ui.BaseUseCase
+import com.otomin.app.ui.UseCaseCoroutineScope
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.launch
 import javax.inject.Inject

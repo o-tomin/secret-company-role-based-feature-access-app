@@ -1,14 +1,14 @@
-package com.verizon.app.ui
+package com.otomin.app.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.verizon.app.ui.config.ConfigRoute
+import com.otomin.app.ui.config.ConfigRoute
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
- * The main entry point for the Verizon Role-Based Access demo application.
+ * The main entry point for the otomin Role-Based Access demo application.
  *
  * This activity serves as the root host for all Jetpack Compose UI content
  * and initializes dependency injection via Hilt.

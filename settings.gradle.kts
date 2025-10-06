@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "verizon-role-based-feature-access-app"
+rootProject.name = "otomin-role-based-feature-access-app"
 include(":app")
  

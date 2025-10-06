@@ -1,3 +1,3 @@
 object Constants {
-    const val TAG = "Verizon"
+    const val TAG = "otomin"
 }

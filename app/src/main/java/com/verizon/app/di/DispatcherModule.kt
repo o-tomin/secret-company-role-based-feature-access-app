@@ -1,4 +1,4 @@
-package com.verizon.app.di
+package com.otomin.app.di
 
 import dagger.Module
 import dagger.Provides

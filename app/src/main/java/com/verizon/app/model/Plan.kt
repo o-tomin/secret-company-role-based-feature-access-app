@@ -1,4 +1,4 @@
-package com.verizon.app.model
+package com.otomin.app.model
 
 import kotlinx.serialization.Serializable
 

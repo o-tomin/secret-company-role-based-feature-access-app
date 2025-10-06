@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoleBasedFeatureAccessApp">
         <activity
-            android:name="com.verizon.app.ui.MainActivity"
+            android:name="com.otomin.app.ui.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.RoleBasedFeatureAccessApp">
             <intent-filter>

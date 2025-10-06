@@ -1,4 +1,4 @@
-package com.verizon.app.di
+package com.otomin.app.di
 
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.MapperFeature
@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.PropertyNamingStrategies
 import com.fasterxml.jackson.dataformat.yaml.YAMLMapper
 import com.fasterxml.jackson.module.kotlin.KotlinModule
-import com.verizon.app.api.ConfigApi
+import com.otomin.app.api.ConfigApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -58,7 +58,7 @@ object NetworkModule {
     @Singleton
     @ConfigBaseUrl
     fun provideConfigBaseUrl(): String =
-        "https://o-tomin.github.io/verizon-role-based-access-config"
+        "https://o-tomin.github.io/otomin-role-based-access-config"
 
     /**
      * Configures an OkHttp logging interceptor.

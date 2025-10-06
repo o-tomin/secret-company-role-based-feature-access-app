@@ -1,10 +1,10 @@
-package com.verizon.app
+package com.otomin.app
 
 /**
  * A centralized object for application-wide constants.
  *
  * This object holds values that are used across multiple layers
- * of the Verizon Role-Based Access demo application.
+ * of the otomin Role-Based Access demo application.
  *
  * Keeping constants in a single place improves maintainability,
  * avoids duplication, and ensures consistent usage throughout
@@ -28,5 +28,5 @@ object Constants {
      * Log.d(Constants.TAG, "Feature access matrix updated")
      * ```
      */
-    const val TAG = "Verizon"
+    const val TAG = "otomin"
 }

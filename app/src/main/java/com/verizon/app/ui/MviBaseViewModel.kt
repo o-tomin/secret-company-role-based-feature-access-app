@@ -1,4 +1,4 @@
-package com.verizon.app.ui
+package com.otomin.app.ui
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

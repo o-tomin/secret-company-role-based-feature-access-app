@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.verizon.app"
+    namespace = "com.otomin.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.verizon.app"
+        applicationId = "com.otomin.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

@@ -1,12 +1,12 @@
-package com.verizon.app.ui.config
+package com.otomin.app.ui.config
 
 import android.util.Log
 import androidx.lifecycle.viewModelScope
-import com.verizon.app.Constants.TAG
-import com.verizon.app.model.PlanId
-import com.verizon.app.model.Role
-import com.verizon.app.ui.MviBaseViewModel
-import com.verizon.app.ui.MviBaseViewState
+import com.otomin.app.Constants.TAG
+import com.otomin.app.model.PlanId
+import com.otomin.app.model.Role
+import com.otomin.app.ui.MviBaseViewModel
+import com.otomin.app.ui.MviBaseViewState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

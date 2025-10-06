@@ -1,12 +1,12 @@
-package com.verizon.app.reopsitory
+package com.otomin.app.reopsitory
 
 import android.util.Log
 import androidx.datastore.core.DataStore
-import com.verizon.app.Constants.TAG
-import com.verizon.app.api.ConfigApi
-import com.verizon.app.di.IoDispatcher
-import com.verizon.app.di.PlansConfigSerializer.defaultValue
-import com.verizon.app.model.PlansConfig
+import com.otomin.app.Constants.TAG
+import com.otomin.app.api.ConfigApi
+import com.otomin.app.di.IoDispatcher
+import com.otomin.app.di.PlansConfigSerializer.defaultValue
+import com.otomin.app.model.PlansConfig
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext

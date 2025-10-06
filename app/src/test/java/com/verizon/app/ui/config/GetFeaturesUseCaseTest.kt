@@ -1,15 +1,15 @@
-package com.verizon.app.ui.config
+package com.otomin.app.ui.config
 
 import app.cash.turbine.test
 import com.google.common.truth.Truth.assertThat
-import com.verizon.app.model.AccessFlag
-import com.verizon.app.model.Feature
-import com.verizon.app.model.Plan
-import com.verizon.app.model.PlanId
-import com.verizon.app.model.PlansConfig
-import com.verizon.app.model.Role
-import com.verizon.app.reopsitory.PlansConfigRepository
-import com.verizon.app.ui.BaseUseCaseTest
+import com.otomin.app.model.AccessFlag
+import com.otomin.app.model.Feature
+import com.otomin.app.model.Plan
+import com.otomin.app.model.PlanId
+import com.otomin.app.model.PlansConfig
+import com.otomin.app.model.Role
+import com.otomin.app.reopsitory.PlansConfigRepository
+import com.otomin.app.ui.BaseUseCaseTest
 import io.mockk.coEvery
 import io.mockk.impl.annotations.MockK
 import kotlinx.coroutines.ExperimentalCoroutinesApi

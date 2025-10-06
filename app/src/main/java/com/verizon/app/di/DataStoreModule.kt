@@ -1,15 +1,15 @@
-package com.verizon.app.di
+package com.otomin.app.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.core.Serializer
 import androidx.datastore.dataStore
-import com.verizon.app.di.PlansConfigSerializer.defaultValue
-import com.verizon.app.model.Feature
-import com.verizon.app.model.Plan
-import com.verizon.app.model.PlanId
-import com.verizon.app.model.PlansConfig
-import com.verizon.app.model.Role
+import com.otomin.app.di.PlansConfigSerializer.defaultValue
+import com.otomin.app.model.Feature
+import com.otomin.app.model.Plan
+import com.otomin.app.model.PlanId
+import com.otomin.app.model.PlansConfig
+import com.otomin.app.model.Role
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,6 +1,6 @@
-package com.verizon.app.api
+package com.otomin.app.api
 
-import com.verizon.app.model.PlansConfig
+import com.otomin.app.model.PlansConfig
 import retrofit2.http.GET
 
 /**

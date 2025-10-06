@@ -1,7 +1,7 @@
-package com.verizon.app.ui
+package com.otomin.app.ui
 
 import android.util.Log
-import com.verizon.app.Constants.TAG
+import com.otomin.app.Constants.TAG
 import io.mockk.MockKAnnotations
 import io.mockk.clearAllMocks
 import io.mockk.every
@@ -26,7 +26,7 @@ import kotlin.coroutines.CoroutineContext
  * and isolated test execution.
  *
  * ### Purpose
- * Many use cases in the Verizon Role-Based Access app rely on structured concurrency
+ * Many use cases in the otomin Role-Based Access app rely on structured concurrency
  * and injected coroutine dispatchers (e.g., `@IoDispatcher`). This base class
  * ensures that those coroutines execute deterministically in a test environment
  * using a [TestDispatcher].

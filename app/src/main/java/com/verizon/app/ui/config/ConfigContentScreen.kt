@@ -1,4 +1,4 @@
-package com.verizon.app.ui.config
+package com.otomin.app.ui.config
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -15,8 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.verizon.app.model.PlanId
-import com.verizon.app.model.Role
+import com.otomin.app.model.PlanId
+import com.otomin.app.model.Role
 
 /**
  * Main content for the “Plans Config” screen.

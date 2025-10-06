@@ -1,4 +1,4 @@
-package com.verizon.app.ui.config
+package com.otomin.app.ui.config
 
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.DropdownMenuItem
